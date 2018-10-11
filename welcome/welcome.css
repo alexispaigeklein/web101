@@ -1,0 +1,285 @@
+@font-face { font-family: 'Merriweather', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Abril Fatface', cursive;
+    src: url('https://fonts.googleapis.com/css?family=Abril+Fatface|Merriweather|Playfair+Display');  }
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+a { text-decoration: none;}
+a:hover { color: crimson;}
+
+
+body {
+    font-family:monospace;
+    margin: 0;
+    background-color: white; 
+    text-align: center;
+    text-align: justify;
+    text-decoration: none;
+}
+
+h1 { font-size: 250%; 
+ }
+
+
+h2 { text-align: right; 
+font-size: 300%;
+    color: #333;
+ font-family: monospace;
+    text-decoration: underline;
+    
+}
+
+h3 { font-size: 90%;
+    text-align: inherit;
+text-transform: uppercase; 
+    text-decoration: none;
+}
+
+h4 {font-size: 90%;
+    text-align: right;
+text-transform: uppercase; 
+
+}
+
+.header {
+    padding: 40px;
+    text-align: center;
+   color: white;
+   background-color: #F2CF00;
+    
+    font-size: 250%;
+}
+
+
+.navbar {
+    display: flex;
+    background-color: #333;
+   
+}
+
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.navbar a:hover {
+    background-color: #0070C0;
+    color: white;
+    
+}
+
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side {
+    flex: 30%;
+   color: white;
+    padding: 20px;
+    background-color: #F2CF00;
+}
+
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+
+.arch {
+    background-color: #aaa;
+    width: 100%;
+    padding: 1px;
+    background-image: url(smallflower.jpg);
+}
+
+.devil {
+    background-color: white;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 1200px;
+    padding: 2px;
+    background-image: url(devil.jpg);
+    border:1px solid #021a40;
+}
+
+.mont {
+    background-color: white;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    background-image: url(monterey.jpg) ;
+border:1px solid #021a40; }
+        
+ .angel {
+    background-color: white;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 20px;
+     max-width: 1200px;
+            background-image: url(angels.JPG);
+border:1px solid #021a40; }
+        
+        
+
+
+.flower {
+    background-color: white;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 20px;
+    background-image: url(smallflower.jpg)
+        
+}
+.img1 {
+    background-color: #aaa;
+    width: 33.33%;
+    padding: 1px;
+    float:left;
+    background-image: url(smallark.jpg); 
+    background-repeat: no-repeat;
+}
+
+.img2 {
+    background-color: #aaa;
+    width: 33.3%;
+    padding: 1px;
+   float: left;
+    background-image: url(smallcoheed.jpg);
+        background-repeat: no-repeat;
+}
+
+
+.img3 {
+    background-color: white;
+    width: 33.3%;
+    padding: 1px;
+    float: left;
+    background-image: url(smallbeach.jpg);
+        background-repeat: no-repeat;
+}
+
+.flower {
+    background-color: white;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 20px;
+    background-image: url(smallflower.jpg) } 
+
+
+        .img11 {
+    background-color: white;
+    background-repeat: no-repeat;
+    width: 33.3%;
+            float: left;
+    padding: 1px;
+            background-image: url(butterfly.jpg) }
+
+
+           .img22 {
+    background-color: white;
+    background-repeat: no-repeat;
+    width: 33.3%;
+    padding: 1px;
+               float: left; 
+            background-image: url(milwaukee.jpg) }
+
+
+ .img33 { 
+    background-color: white;
+    background-repeat: no-repeat;
+    width: 33.33%;
+     height: 100px;
+    padding: 1px;
+     float: left;
+     background-image: url(boardwalk.jpg) }
+
+
+.footer {
+    padding: 20px;
+    text-align: center;
+   background-color: white;
+}
+
+
+
+.row {
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+
+.column {
+    -ms-flex: 25%; 
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+    h3 { font-family:monospace; 
+        font-size: 20px; 
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+        .row, .navbar {   
+        flex-direction: column;
+    }
+    .arch { display: none;
+    }
+    h2 { display: none; }
+    h3 { color: red; }
+}
+
+@media screen and (min-width: 900px)
+{ 
+    h3 { color: plum; }
+    body { font-size: 15px; }
+}
+
+   
+
+
+  
+
+
+
+
+
+
+
+
+
+
